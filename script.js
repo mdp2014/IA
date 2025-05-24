@@ -1,6 +1,6 @@
 // Remplace ceci par ta vraie clé API OpenAI
 const API_KEY = 'sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'; 
-const ASSISTANT_ID = 'asst_6Hqump2srzaNJcu2JebffTgW';
+const ASSISTANT_ID = 'asst_74qWPtWZVhu4UVxErK1wW0WE';
 
 let threadId = null;
 
