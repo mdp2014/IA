@@ -2,20 +2,19 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Assistant IA</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="chat-container">
-    <h1>Assistant IA</h1>
-    <div id="chat-box" class="chat-box"></div>
-    <div class="input-area">
-      <input type="text" id="user-input" placeholder="Écris ton message..." />
-      <button id="send-btn">Envoyer</button>
-    </div>
+    <div class="chat-header">Assistant IA 🤖</div>
+    <div class="chat-messages" id="chatMessages"></div>
+    <form id="chatForm" autocomplete="off">
+      <input type="text" id="userInput" placeholder="Écris ton message ici..." required />
+      <button type="submit">Envoyer</button>
+    </form>
   </div>
-
-  <script src="script.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
