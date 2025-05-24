@@ -1,5 +1,5 @@
 const API_KEY = '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';
-const ASSISTANT_ID = 'asst_6Hqump2srzaNJcu2JebffTgW';
+const ASSISTANT_ID = 'asst_74qWPtWZVhu4UVxErK1wW0WE';
 let threadId = null;
 
 document.getElementById('send-btn').addEventListener('click', handleSend);
